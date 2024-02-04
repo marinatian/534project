@@ -24,7 +24,8 @@ Before using the package, ensure you have an API key from OpenWeatherMap. Store 
 api_key <- "f4ae84f3cc4c51353a1ae2279dd7a60b" # Replace with your actual API key
 ```
 
-## Fetching Current Weather
+## Fetching
+### Current Weather
 To get current weather information for a specific location:
 ```{r}
 lat <- 40.7128  # Example latitude for New York City
@@ -32,7 +33,7 @@ lon <- -74.0060 # Example longitude for New York City
 current_weather <- get_current_weather(lat, lon, api_key)
 ```
 
-## Fetching Weather Forecast
+### Weather Forecast
 ```{r}
 forecast_weather <- get_forecast_weather(lat, lon, api_key)
 ```
