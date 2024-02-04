@@ -1,0 +1,66 @@
+{
+  "current_weather": {
+    "temperature": 10.97,
+    "weather": "few clouds",
+    "humidity": 83,
+    "wind_speed": 8.23
+  },
+  "forecast_weather": [
+    {
+      "day": "2024-02-04",
+      "weather": "There will be partly cloudy today",
+      "temp_min": 10.36,
+      "temp_max": 13.36,
+      "humidity": 73
+    },
+    {
+      "day": "2024-02-05",
+      "weather": "There will be partly cloudy today",
+      "temp_min": 7.99,
+      "temp_max": 11.27,
+      "humidity": 74
+    },
+    {
+      "day": "2024-02-06",
+      "weather": "You can expect partly cloudy in the morning, with rain in the afternoon",
+      "temp_min": 11.1,
+      "temp_max": 12.68,
+      "humidity": 69
+    },
+    {
+      "day": "2024-02-07",
+      "weather": "Expect a day of partly cloudy with rain",
+      "temp_min": 5.77,
+      "temp_max": 11.65,
+      "humidity": 87
+    },
+    {
+      "day": "2024-02-08",
+      "weather": "Expect a day of partly cloudy with rain",
+      "temp_min": 5.88,
+      "temp_max": 11.25,
+      "humidity": 89
+    },
+    {
+      "day": "2024-02-09",
+      "weather": "There will be partly cloudy until morning, then rain",
+      "temp_min": 10.3,
+      "temp_max": 12.04,
+      "humidity": 79
+    },
+    {
+      "day": "2024-02-10",
+      "weather": "There will be rain until morning, then partly cloudy",
+      "temp_min": 7.28,
+      "temp_max": 10.23,
+      "humidity": 60
+    },
+    {
+      "day": "2024-02-11",
+      "weather": "Expect a day of partly cloudy with rain",
+      "temp_min": 5.5,
+      "temp_max": 8.89,
+      "humidity": 64
+    }
+  ]
+}
