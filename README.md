@@ -65,6 +65,6 @@ visualize_forecast_weather(processed_forecast)
 ```
 
 ## Features
-*Fetch current weather and forecast data using latitude and longitude.
-*Process the raw data into a user-friendly format.
-*Visualize weather data with built-in plotting functions.
+Fetch current weather and forecast data using latitude and longitude.  
+Process the raw data into a user-friendly format.  
+Visualize weather data with built-in plotting functions.
