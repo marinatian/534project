@@ -34,28 +34,15 @@ jobs:
         with:
           r-version: ${{ matrix.r-version }}
 
-      - name: Install LaTeX on Ubuntu
-        if: runner.os == 'Linux'
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y texlive-full
-      
-      - name: Install LaTeX on macOS
-        if: runner.os == 'macOS'
-        run: |
-          brew install --cask mactex
-      
-      - name: Install LaTeX on Windows
-        if: runner.os == 'Windows'
-        run: |
-          choco install miktex --params="'/NoDesktopShortcuts /NoTaskbarShortcuts'"
 
       - name: Install dependencies
-        run: |
-          install.packages(c("remotes", "rcmdcheck"))
-          remotes::install_deps(dependencies = TRUE)
-        shell: Rscript {0}
-
+        uses: r-lib/actions/setup-r_dependencies@v2
+        with:
+          working_directory: 534project
+          extra_packages: any::rcmdcheck
+          needs: check
+        
       - name: Check Package
+        working-directory: 534project
         run: rcmdcheck::rcmdcheck(args = "--no-manual", error_on = "error")
         shell: Rscript {0}
