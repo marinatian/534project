@@ -37,6 +37,8 @@ jobs:
         with:
           r-version: ${{ matrix.r-version }}
 
+      - name: Install rcmdcheck package
+        run: Rscript -e 'install.packages("rcmdcheck")'
 
 
       - name: Install dependencies
