@@ -1,12 +1,13 @@
 Package: ropenweather
 Type: Package
-Title: What the Package Does (Title Case)
+Title: open weather package
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Authors@R: c(
+    person("Hanwen", "Zhang", email = "hanwenzhang04@gmail.com",role = "aut"),
+    person("Shiyi","Chen",email = "shiyichen16@gmail.com",role = "cre"),
+    person("Ruomeng","Tian",email = "ruomengtian@gmail.com",role = "fnd"))
+Description: ropenweather is an R package designed for fetching, processing, and visualizing weather data from the OpenWeatherMap API. This vignette demonstrates how to use its functionalities effectively.
+License: use_mit_license()
 Encoding: UTF-8
 LazyData: true
 Imports: 
