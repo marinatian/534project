@@ -27,6 +27,7 @@ ropenwhether is an R package designed for fetching, processing, and visualizing 
 Load package:
 ```{r}
 library(ropenwhether)
+help("get_current_weather")
 ```
 
 Before using the package, ensure you have an API key from OpenWeatherMap. Store your API key as follows:

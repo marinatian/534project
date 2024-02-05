@@ -130,3 +130,4 @@ visualize_forecast_weather <- function(forecast_weather_processed) {
 
   print(humidity_plot)
 }
+
