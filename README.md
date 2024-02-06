@@ -1,22 +1,22 @@
-# ropenwhether
+# ropenweather
 [![R Package Build ropenweather](https://github.com/marinatian/534project/actions/workflows/r.yml/badge.svg)](https://github.com/marinatian/534project/actions/workflows/r.yml)
 ## Introduction
 
-ropenwhether is an R package designed for fetching, processing, and visualizing weather data from the OpenWeatherMap API. This vignette demonstrates how to use its functionalities effectively.
+ropenweather is an R package designed for fetching, processing, and visualizing weather data from the OpenWeatherMap API. This vignette demonstrates how to use its functionalities effectively.
 
 ## Installation
 
-To install the latest version of `ropenwhether` from GitHub, use:
+To install the latest version of `ropenweather` from GitHub, use:
 
 ```{r}
 # install.packages("devtools")
-devtools::install_github("marinatian/ropenwhether")
+devtools::install_github("marinatian/ropenweather")
 ```
 
-Load `ropenwhether`
+Load `ropenweather`
 
 ```{r}
-library('ropenwhether')
+library('ropenweather')
 ```
 
 Before using the package, ensure you have an API key from OpenWeatherMap. Store your API key as follows:
