@@ -1,5 +1,5 @@
 # ropenwhether
-
+[![R Package Build ropenweather](https://github.com/marinatian/534project/actions/workflows/r.yml/badge.svg)](https://github.com/marinatian/534project/actions/workflows/r.yml)
 ## Introduction
 
 ropenwhether is an R package designed for fetching, processing, and visualizing weather data from the OpenWeatherMap API. This vignette demonstrates how to use its functionalities effectively.
