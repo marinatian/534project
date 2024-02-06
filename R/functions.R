@@ -4,6 +4,8 @@
 #' @importFrom dplyr bind_rows
 #'
 #'
+utils::globalVariables(c("variable", "value", "day", "temp_min", "temp_max", "humidity"))
+
 # 1. Get the weather data
 #' @title title get_current_weather
 #' @param lat A number.
@@ -116,7 +118,7 @@ visualize_forecast_weather <- function(forecast_weather_processed) {
   temp_plot <- ggplot(forecast_df, aes(x = day)) +
     geom_line(aes(y = temp_min, color = "Min Temperature")) +
     geom_line(aes(y = temp_max, color = "Max Temperature")) +
-    labs(title = "Temperature Forecast", x = "Day", y = "Temperature (°C)") +
+    labs(title = "Temperature Forecast", x = "Day", y = "Temperature (\u00B0C)") +
     theme_minimal() +
     scale_color_manual("",
                        breaks = c("Min Temperature", "Max Temperature"),
