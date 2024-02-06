@@ -1,12 +1,12 @@
 Package: ropenweather
 Type: Package
-Title: open weather package
+Title: Open Weather Package
 Version: 0.1.1
 Authors@R: c(
     person("Hanwen", "Zhang", email = "hanwenzhang04@gmail.com",role = "aut"),
     person("Shiyi","Chen",email = "shiyichen16@gmail.com",role = "cre"),
     person("Ruomeng","Tian",email = "ruomengtian@gmail.com",role = "fnd"))
-Description: ropenweather is an R package designed for fetching, processing, and visualizing weather data from the OpenWeatherMap API. This vignette demonstrates how to use its functionalities effectively.
+Description: Designed for fetching, processing, and visualizing weather data from the OpenWeatherMap API, the package offers functionalities demonstrated in its vignette. It facilitates easy access to weather information, aiding in data analysis and visualization tasks.
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
