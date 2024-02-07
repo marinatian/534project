@@ -16,7 +16,7 @@ devtools::install_github("marinatian/534project")
 Load `ropenweather`
 
 ```{r}
-library('ropenweather')
+library(ropenweather)
 ```
 
 Before using the package, ensure you have an API key from OpenWeatherMap. Store your API key as follows:
