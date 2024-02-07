@@ -10,7 +10,7 @@ To install the latest version of `ropenweather` from GitHub, use:
 
 ```{r}
 # install.packages("devtools")
-devtools::install_github("marinatian/ropenweather")
+devtools::install_github("marinatian/534project")
 ```
 
 Load `ropenweather`
