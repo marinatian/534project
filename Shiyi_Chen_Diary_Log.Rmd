@@ -1,0 +1,30 @@
+---
+title: "project_diary_Shiyi_Chen"
+author: "Shiyi Chen"
+date: "2024-02-08"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+
+
+2024-01-22: Coordinated with the project theme
+
+2024-01-25: Draft the first version og the fundamental functions
+[Commit](https://github.com/marinatian/534project/commit/9878c6500e8c47077393a3aa56a5985eef8f5d91)
+
+2024-02-03: Updated functions
+[Commit](https://github.com/marinatian/534project/commit/2b8359aeee85a7e2a8a130738572df0f8ae82091)
+
+2024-02-04: Delete hello.R and some other files
+[Commit](https://github.com/marinatian/534project/commit/94781d7840434d0e3abf89f828d9e97e305d6149)
+[Commit](https://github.com/marinatian/534project/commit/fee73c90d154875259c3f951dd6d965bfb98566c)
+
+2024-02-05: Modify DESCRIPTION, functions.R, and rbuildignore; Remove unneccessary imports;
+[Commit](https://github.com/marinatian/534project/commit/980b0dca48aa57c79bf4a5f26a6c0e42b04cc5bd)
+[Commit](https://github.com/marinatian/534project/commit/c01c8064f7cfc9ac675f89cd3cf1a1c3b488df91)
+[Commit](https://github.com/marinatian/534project/commit/9b3de352ba2a9df3d9facdc1f01d9a010c125c58)
