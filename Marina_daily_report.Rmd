@@ -7,13 +7,13 @@ output: html_document
 
 
 Jan.22
-Created a respository for the group
-Setted up how to divide the work among 3 people
+Created a repository for the group
+Set up how to divide the work among 3 people
 
 [commit](https://github.com/marinatian/534project/commit/e746358826655bad282e01ef438f9d5448e7b729)
 
 Jan.23 - 25
-Collarated for project proposal
+Collaborated for project proposal
 
 Feb.1 - 3
 Worked on the vignettes for the wrapper
@@ -25,7 +25,7 @@ Uploaded the vignettes in rmd file, as well as the html file
 
 [commit](https://github.com/marinatian/534project/commit/4ae756c36276288e768ed25602a39a25b0f70d6f)
 
-Created a readme file to introduced about how to use our package, then updated readme file for several time
+Created a readme file to introduced how to use our package, then updated readme file several times
 
 [commit](https://github.com/marinatian/534project/commit/db805a7d7bc67a5beca52a2a3785f6178f3e079d)
 
@@ -34,5 +34,5 @@ created .travis.yml file for testing the project and updated for several time bu
 [commit](https://github.com/marinatian/534project/commit/27cd9ebec0a43a87f6c639f4647106e5353ba8af)
 
 Feb.4-7
-Collarated working on the presentation desk
+Collaborated working on the presentation slide
 
